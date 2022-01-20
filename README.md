@@ -1,6 +1,6 @@
-# adlisting
+# AdsListing
 
-A new Flutter project.
+A Advanced Networking (Classified app) Flutter project.
 
 ## Getting Started
 

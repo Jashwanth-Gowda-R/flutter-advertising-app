@@ -7,11 +7,11 @@ class MyAdsCard extends StatelessWidget {
   final String timeAgo;
 
   const MyAdsCard({
-    Key? key,
-    required this.title,
-    required this.price,
-    required this.imageURL,
-    required this.timeAgo,
+    Key key,
+     this.title,
+     this.price,
+     this.imageURL,
+    this.timeAgo,
   }) : super(key: key);
 
   @override

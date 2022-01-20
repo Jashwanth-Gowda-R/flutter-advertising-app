@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 
 class PhotoViewerScreen extends StatefulWidget {
   final List images;
-  const PhotoViewerScreen({Key? key, required this.images}) : super(key: key);
+  const PhotoViewerScreen({Key key, this.images}) : super(key: key);
 
   @override
   _PhotoViewerScreenState createState() => _PhotoViewerScreenState();

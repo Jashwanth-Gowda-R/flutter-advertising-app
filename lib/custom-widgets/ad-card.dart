@@ -6,10 +6,10 @@ class AdCard extends StatelessWidget {
   final double price;
 
   AdCard({
-    Key? key,
-    required this.imageURL,
-    required this.title,
-    required this.price,
+    Key key,
+     this.imageURL,
+     this.title,
+     this.price,
   }) : super(key: key);
 
   @override

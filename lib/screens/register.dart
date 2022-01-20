@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class RegisterScreen extends StatelessWidget {
-  RegisterScreen({Key? key}) : super(key: key);
+  RegisterScreen({Key key}) : super(key: key);
 
   TextEditingController _emailCtrl = TextEditingController();
   TextEditingController _passwordCtrl = TextEditingController();

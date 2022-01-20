@@ -12,14 +12,14 @@ class AdDetailScreen extends StatelessWidget {
   final String mobile;
 
   AdDetailScreen({
-    Key? key,
-    required this.title,
-    required this.price,
-    required this.description,
-    required this.images,
-    required this.timeAgo,
-    required this.authorName,
-    required this.mobile,
+    Key key,
+    this.title,
+    this.price,
+    this.description,
+    this.images,
+    this.timeAgo,
+    this.authorName,
+    this.mobile,
   }) : super(key: key);
 
   @override

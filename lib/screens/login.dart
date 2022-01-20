@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class LoginScreen extends StatelessWidget {
-  LoginScreen({Key? key}) : super(key: key);
+  LoginScreen({Key key}) : super(key: key);
 
   TextEditingController _emailCtrl = TextEditingController();
   TextEditingController _passwordCtrl = TextEditingController();

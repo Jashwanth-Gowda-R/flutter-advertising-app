@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class MyAdsScreen extends StatefulWidget {
-  const MyAdsScreen({Key? key}) : super(key: key);
+  const MyAdsScreen({Key key}) : super(key: key);
 
   @override
   _MyAdsScreenState createState() => _MyAdsScreenState();

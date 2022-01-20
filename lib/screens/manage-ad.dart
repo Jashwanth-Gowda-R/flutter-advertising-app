@@ -5,9 +5,9 @@ class ManageAdScreen extends StatefulWidget {
   Map product = {};
 
   ManageAdScreen({
-    Key? key,
-    required this.isEdit,
-    required this.product,
+    Key key,
+    this.isEdit,
+    this.product,
   }) : super(key: key);
 
   @override
